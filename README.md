@@ -166,12 +166,12 @@ Registro de datos tomandos del experimento, procesados y calculados por medio de
 
 Obtenido de:
 
-https://gc.scalahed.com/recursos/files/r145r/w320w/U4liga4.htm
+    https://gc.scalahed.com/recursos/files/r145r/w320w/U4liga4.htm
  
  
 Obtenido de:
 
-https://tecdigital.tec.ac.cr/repo/rea/electronica/el-2114/un_1/14_el_concepto_de_fasor_y_diagrama_fasorial.html
+    https://tecdigital.tec.ac.cr/repo/rea/electronica/el-2114/un_1/14_el_concepto_de_fasor_y_diagrama_fasorial.html
 
 
 Rodríguez, H. (19 de Octubre de 2017). lifeder. Obtenido de
@@ -190,7 +190,7 @@ Recuperado de:
 
 * Calculos a pdf:
 
-      https://github.com/eddy90cg/lab-4---fce/blob/main/anexos/C%C3%A1lculos%20Auxiliares.pdf
+  https://github.com/eddy90cg/lab-4---fce/blob/main/anexos/C%C3%A1lculos%20Auxiliares.pdf
    
 
 
