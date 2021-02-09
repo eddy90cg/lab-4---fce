@@ -189,6 +189,12 @@ Recuperado de:
 * Calculos a pdf:
 
   https://github.com/eddy90cg/lab-4---fce/blob/main/anexos/C%C3%A1lculos%20Auxiliares.pdf
+  
+ * Mentefacto pdf:
+ 
+  https://github.com/eddy90cg/lab-4---fce/blob/main/anexos/fasores.pdf
+ 
+ 
    
 
 
