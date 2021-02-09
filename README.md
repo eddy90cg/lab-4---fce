@@ -6,15 +6,15 @@
 
 OBJETIVO GENERAL:
 
-* Comprobar experimentalmente el Teorema de Superposición correspondiente con las dos fuentes y corriente seleccionada.
+* Realizar operaciones aritméticas con números complejos, tanto en su forma polar
+como rectangular.
 
-* La experiencia de este laboratorio consiste en hacer la configuración en un circuito eléctrico para comprobar experimentalmente el Teorema de Superposicion y aplicacion ya sea el caso de fuente de voltaje o fuente de corriente.
 
 OBJETIVOS ESPECÍFICOS: 
 
-* Afianzar experimentalmente las leyes de conservación de la energía eléctrica y la Conservación de la carga a traves de las mallas y Nodos.
+* Afianzar experimentalmente las leyes de conservación de la energía eléctrica atraves de los fasores.
 
-* Verificar las voltajes medidios y corrientes medidios en donde se requiere segun el diagrama teórico.
+* Comparar la matematica de coordenadas rectangulares del plano complejo a polares y visceversa.
 
 
 # 2.	MARCO TEÓRICO
@@ -23,151 +23,156 @@ OBJETIVOS ESPECÍFICOS:
 
 * Resumen: 
 
-Este método solamente se utiliza para circuitos lineales y para obtener voltajes e intensidades en un circuito.
-El teorema de superposición establece que, el efecto dos o más fuentes de voltaje y/o corriente tienen sobre un punto cualquiera en un circuito lineal, es igual a la suma de cada uno de los efectos de cada fuente tomados por separado, sustituyendo todas las fuentes de voltaje restantes por un corto circuito y las fuentes de corriente por circuitos abiertos.
-El teorema de superposición ayuda a encontrar:
-•	Valores de tensión, en una posición de un circuito, que tiene más de una fuente de tensión y/o corriente.
-•	Valores de corriente, en un circuito con más de una fuente de tensión y/o voltaje.
+En este laboratorio comprenderemos el concepto de fasor en su forma rectangular y polar. Así mismo su
+representación gráfica.
+
 
 * Introducción:
 
-¿Qué es el Teorema de Superposición?.
-
-Se usa para la solución de redes con dos o más fuentes que no están en serie o en paralelo. La principal ventaja de este método es que la mayoría de las veces no requiere del uso de una técnica matemática, como la de determinantes, para encontrar los voltajes o las corrientes requeridas. En su lugar, cada fuente se analiza de manera independiente y la suma algebraica se encuentra para determinar una cualidad desconocida de la red.
-
-¿Qué es el principio de Superposición?.
-
-El principio de superposición establece que la respuesta (una corriente o tensión deseada) en un circuito lineal que tiene más de una fuente independiente se obtiene mediante la suma de las respuestas ocasionadas por las fuentes independientes separadas que actúan solas.
+Los números complejos permiten realizar operaciones matemáticas con
+cantidades fasoriales y son muy útiles en el análisis de circuitos de ca. Con el sistema de
+los números complejos se puede sumar, restar, multiplicar y dividir cantidades que tienen
+tanto magnitud como ángulo.
 
 * Desarrollo:
 
-Pasos a seguir
-Para usar el teorema de superposición para el análisis de circuitos eléctricos, siga los pasos enlistados a continuación:
+Fasores
 
-** Identificar las Fuentes independientes
-Primero que nada tienes que identificar todas las fuentes independientes que hay en el circuito.
+El fasor es un número complejo que presenta información sobre la amplitud y el ángulo de fase de una función senoidal.  El concepto del fasor se establece a partir de la identidad de Euler, relaciona el exponencial de un número complejo con la función trigonómetrica 
+ 
+La función coseno es la  parte real de la función exponencial, mientras que la función seno es la parte imaginaria. Considerado como número complejo, el exponencial tiene magnitud unitaria y su ángulo es f.
+Por lo anterior, considerando que la frecuencia se mantiene constante, se considera al número complejo como la transformada fasorial de la señal senoidal
+ 
+La expresión anterior es llamada forma polar del fasor. También podemos expresar el fasor en forma rectangular como:
 
-** Escoge una fuente y “apaga” las demás
-Cada que escojas una fuente para analizar deberás “apagar” todas las demás. Reemplaza todas las fuentes de corriente con un circuito abierto y fuentes de voltaje con un circuito cerrado, exceptuando la fuente que estará considerando en los próximos pasos.
+![](https://github.com/eddy90cg/lab-4---fce/blob/main/imgs/teo%202%20fasores.jpg)
+ 
+Fasores.
 
-![](https://github.com/eddy90cg/lab-3-fce/blob/master/img/grafica%20marco%20teorico%20fuente%20voltaje%20fuente%20corrriente.jpg)
+Las senoides se expresan fácilmente en fasores, lo que hace mas cómodo trabajar este tipo de funciones.  Un fasor es un numero complejo que representa la amplitud y la fase de una senoide.
+Ahora un numero complejo se puede expresar en dos sistemas coordenados: Cartesiano y polar, como se presentan a continuación. 
+ 
+![](https://github.com/eddy90cg/lab-4---fce/blob/main/imgs/teo%201%20fasores.jpg)
 
-** Calcula el voltaje y la corriente
-Encuentra la corriente en cada rama y el voltaje en cada nodo, sea cual sea la técnica que desee.
-
-** Repita los dos pasos anteriores para cada fuente independiente
-Repite el proceso anterior las veces que sea necesario. Dependiendo del número de fuentes independientes del circuito.
-
-** Realiza la sumatoria
-Finalmente, encuentre la suma algebraica de cada corriente de rama y voltaje de nodo de las corrientes y voltajes individuales anteriores.
-
-
+donde Z es el numero complejo. x es la parte real del numero imaginario (x=Re(Z)), y es la parte imaginaria de Z (Im(Z)=y). r es la magnitud del numero imaginario y phi es la fase o el angulo formado entre x e y. 
+Existe una relación entre la forma rectangular y la polar. Partiendo de un numero complejo en su forma rectangular, utiliza las siguientes operaciones para cambiar a coordenadas polares. 
+ 
+ Cabe resaltar que para la operación de suma es mas fácil realizarla entre números complejos en su forma rectangular mientras que la multiplicación en su forma polar.
+ 
+ operaciones con fasores:
+ 
+ ![](https://github.com/eddy90cg/lab-4---fce/blob/main/imgs/operaciones%20con%20fasores.jpg)
+ 
+Un fasor puede considerarse como un equivalente matemático de una senoide son la dependencia del tiempo. En las ecuaciones anteriores se muestra que para obtener el fasor correspondiente a una senoide, primero se expresa las senoide en la forma de coseno para que sea posible escribirla como la parte real de un número complejo. Después se elimina el factor del tiempo (t) y lo que resta es el fasor correspondiente a la senoide. Al retirar el factor dependiente del tiempo, se transforma las senoide del dominio del tiempo al dominio fasorial o de la frecuencia.
+ 
 
 
 # 3. EXPLICACIÓN
 
+![](https://github.com/eddy90cg/lab-4---fce/blob/main/imgs/transformaciones.jpg)
+
  
-La aplicación del principio de superposición en el análisis de un circuito eléctricos comprende los siguientes pasos:
+La transformacion de su coordenada rectangular en el plano complejo a forma polar comprende los siguientes pasos:
 
-*	 Apagar todas las fuentes independientes excepto una. Calcular la salida (tensión o corriente) debido a la única fuente activa.
+*	 Empezamos a entederlo graficamente la expresion.
 
-* 	Repetir el paso anterior para cada una de las fuentes independientes presentes en el circuito.
+* 	Encontrar el modulo de los coomponentes cartesianos.
 
-* 	La contribución total viene dada por la suma algebraica de las contribuciones de cada una de los voltajes  en las fuentes independientes.
+* 	Encontrar el angulo de la grafica en el plano cartesiano complejo atraves de la aplicacion trigonometrica del arco tangente del componente complejo en j dividido al componete real, el resultado es el angulo comprendido entre los dos componetes.
 
-* La contribución total viene dada por la resta algebraica de las contribuciones de cada una de las corrientes en las fuentes independientes.
+* Para concluir obtenemos el modulo y el angulo; asi completamos la transformacion.
+
+La transformacion de su coordenada polar a la de coordenadas rectangulares en el plano complejo comprende los siguientes pasos:
+
+* Empezamos con la observacion del modulo y angulo que comprende la expresion dada a transformar.
+
+* Continuamos el proceso con la aplicacion de funciones trigonometricas al angulo dado y multiplicando con su modulo, variando la funcion coseno para la parte real y la funcion seno para la parte compleja.
+
+* Finalmente obtendremos una exprecion z = a +- bj donde a es la parte real y b la parte compleja que sus signo varia segun el angulo dado.
+
+* Para concluir podemos graficar y observar que tiene semejanza la grafica pricipal dada y asi concluimos la transformacion. 
+
 
 # 4. LISTA DE COMPONENTES
 
-Lista de Materiales y componetes necesarios para desarrollar el circuito expirementalmente y simularlo:
+Lista de Materiales y componetes necesarios para desarrollar experimental del laboratorio :
 
-![](https://github.com/eddy90cg/lab-3-fce/blob/master/img/Equipos%20y%20Materiales.jpg)
+![](https://github.com/eddy90cg/lab-4---fce/blob/main/imgs/Equipos%20y%20materiales.jpg)
 
 
-# 5.	DIAGRAMAS
+# 5.	DIAGRAMAS y Resultados
+
+Transformada a su forma polar:
  
+![](https://github.com/eddy90cg/lab-4---fce/blob/main/imgs/transformada%20a%20polares.jpg)
 
-Aplicando superposición sabemos que:
- 
-Donde Vo1 es la salida forzada o resultante de la influencia de la fuente de tensión V1 con la fuente de corriente apagada. Así mismo, Vo2 es la salida forzada o resultante de la influencia de la fuente de corriente I1 con la fuente de tensión apagada.
+Transformada a su forma rectangular:
 
-* Figura, Circuito Teórico para el análisis de mallas:
-
-![](https://github.com/eddy90cg/lab-3-fce/blob/master/img/Circuito%20Teorico.jpg)
-
-
-
-* Circuito Experimental y simulado para el analisis de malla, medidos con multímetro respectivo a la corrriente de cada malla:
-
-![](https://github.com/eddy90cg/lab-3-fce/blob/master/img/circuito%20simulado.jpg)
-
-*  Circuito Experimental con v1 cortocircuitado:
-
-![](https://github.com/eddy90cg/lab-3-fce/blob/master/img/circuito%20simulado%20v1%200.jpg)
-
-*  Circuito Experimental con v2 cortocircuitado:
-
-![](https://github.com/eddy90cg/lab-3-fce/blob/master/img/circuito%20simulado%20v2%200.jpg)
-
+![](https://github.com/eddy90cg/lab-4---fce/blob/main/imgs/transformada%20a%20rectangulares.jpg)
 
 # 6.	Procedimiento y funcionalidad
 
-En este punto se debe explicar cómo funcionan la implementación del circuito o programa.
+Las siguientes operaciones paso a paso procedemos a transformar matematicamente y representamos el resultado tanto en su
+forma rectangular como en su forma polar.
 
-* Arme el circuito.
+![](https://github.com/eddy90cg/lab-4---fce/blob/main/imgs/ejer%20lab%204%20.jpg)
 
-* Con las dos fuentes conectadas, mida el voltaje VA y la corriente IX, respetando
-tanto la polaridad del voltaje como el sentido de la corriente que se proporcionan. Anote
-el valor de las mediciones en la tabla.
+* En el primer problema procedemos a transformar todo a coordenadas rectangulares con el proceso indicado durante este informe.
 
-* Haga “cero” la fuente de voltaje de 12 V (V2) y mida el voltaje VA y la corriente
-IX, respetando tanto la polaridad del voltaje como el sentido de la corriente que se
-proporcionan. Anote el valor de las mediciones en la tabla.
+* Continuamos con las operciones aritmeticas entre complejos.
 
-* Haga “cero” la fuente de voltaje de 20 V (V1) y mida el voltaje VA y la corriente
-IX, respetando tanto la polaridad del voltaje como el sentido de la corriente que se
-proporcionan. Anote el valor de las mediciones en la tabla.
+* Cocnluimos con el resultado en el campo rectangular complejo del primer ejericio.
+
+* Para el segundo caso transformamos su respuesta por el metodo mencionado durante este infrome de laboratorio a coordenadas polares.
+
+* Para el segundo ejercicio y tercer ejercicio empezamos trasnformando sus expresiones a coordenadas rectangulares.
+
+* Continuamos como el primer ejercicio a resolver sus expresiones en coordenadas rectangulares y obtener el resultado en este campo.
+
+* Finalmente concluimos a transformar en el campo de coordenadas polares.
+
+Ejercicio 1:
+
+![](https://github.com/eddy90cg/lab-4---fce/blob/main/imgs/Ejericio%201.jpg)
+
+Ejercicio 2:
+
+![](https://github.com/eddy90cg/lab-4---fce/blob/main/imgs/Ejercicio%202.jpg)
+
+Ejercicio 3:
+
+![](https://github.com/eddy90cg/lab-4---fce/blob/main/imgs/Ejercicio%203.jpg)
 
 # 7. APORTACIONES
 
-Tabla de Registro de datos tomandos del Experimento:
+Registro de datos tomandos del experimento, procesados y calculados por medio de calculadora digital :
 
 
-![](https://github.com/eddy90cg/lab-3-fce/blob/master/img/tabla%20de%20resultados%20excel.jpg)
+![]( )
 
 
-Para poder econtrar los valores de la corriente para cada malla se aplicaron los sigueintes calulos:
 
-* observamos las fuentes y aplicamos teoremas de superposicion:
-
-![](https://github.com/eddy90cg/lab-3-fce/blob/master/img/diagrama%20para%20v1%200.jpg)
-
-![](https://github.com/eddy90cg/lab-3-fce/blob/master/img/diagrama%20para%20v2%200.jpg)
-
-* Realizamos los calculos correspondientes aplicando ley de mallas y ley de ohm en cada circuito generado del teorema de superposicion: 
-
-![](https://github.com/eddy90cg/lab-3-fce/blob/master/img/calculos.jpg)
-
-* Obtenemos como resultados finales para el cricuito Total:
-
-![](https://github.com/eddy90cg/lab-3-fce/blob/master/img/calculos%20finales.jpg)
-
-Formula a aplicar para el calculo del ERROR: 
-
-![](https://github.com/eddy90cg/lab-3-fce/blob/master/img/calculo%20error.jpg)
 
 
 # 8.	CONCLUSIONES
 
-* La superposición es una técnica muy útil para añadir a tu conjunto de herramientas que sirve para analizar circuitos. Usa la superposición cuando tengas un circuito con entradas múltiples o múltiples fuentes de poder.
+* Al aplicar las normas matematicas para cada caso a su transformacion podemos observar de mejor manera los calculos correspondientes.
 
-* Se comprueba que podemos obtener voltaje y corriente aplicando los métodos en análisis de circuitos eléctricos que cuentan
-con varias fuentes con el Teorema de Superposición.
+* Para mejor observacion del comportamiento electrico del circuito es preferible en forma polar asi le observamos de mejor manera.
 
-* Obervamos que las fuentes de voltaje igualadas a cero equivalen a un corto circuito, mientras que
-las fuentes de corriente igualadas a cero equivalen a un circuito abierto.
+* Se estable las conclusiones de cada asunto investigado, implicaciones para la teoría y resultados de las experiencias. Estos siempre estarán en relaciona los objetivos generales y específicos.
 
 # 9.	BIBLIOGRAFÍA
+
+Obtenido de:
+
+https://gc.scalahed.com/recursos/files/r145r/w320w/U4liga4.htm
+ 
+ 
+Obtenido de:
+
+https://tecdigital.tec.ac.cr/repo/rea/electronica/el-2114/un_1/14_el_concepto_de_fasor_y_diagrama_fasorial.html
+
 
 Rodríguez, H. (19 de Octubre de 2017). lifeder. Obtenido de
 
@@ -183,9 +188,9 @@ Recuperado de:
 
 # 10. ANEXOS
 
-* Calculos a mano:
+* Calculos a pdf:
 
-      https://github.com/eddy90cg/lab-3-fce/blob/master/Anexos/calculos%20a%20mano.pdf
+      https://github.com/eddy90cg/lab-4---fce/blob/main/anexos/C%C3%A1lculos%20Auxiliares.pdf
    
 
 
