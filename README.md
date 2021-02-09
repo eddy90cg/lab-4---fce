@@ -26,6 +26,7 @@ OBJETIVOS ESPECÍFICOS:
 En este laboratorio comprenderemos el concepto de fasor en su forma rectangular y polar. Así mismo su
 representación gráfica.
 
+![](https://github.com/eddy90cg/lab-4---fce/blob/main/imgs/diagrama%20conceptual.jpg)
 
 * Introducción:
 
