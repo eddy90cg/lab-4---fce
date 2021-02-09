@@ -148,10 +148,7 @@ Ejercicio 3:
 Registro de datos tomandos del experimento, procesados y calculados por medio de calculadora digital :
 
 
-![]( )
-
-
-
+![](https://github.com/eddy90cg/lab-4---fce/blob/main/imgs/Ejercicios%20en%20calculadora.jpg)
 
 
 # 8.	CONCLUSIONES
